@@ -1,0 +1,164 @@
+            /* use mdn and see all html css and javasrcipt :-https://developer.mozilla.org/en-US/ */
+                                                          /* :- https://codepen.io/enxaneta/full/adLPwv */
+/* -------------------------------------------------------------------------- */
+/* Alpha channel rage 0 to 1    :- use For opeacity */
+/* -------------------------------------------------------------------------- */
+/* ex:- */
+/* .alpha {
+    opacity: 0.5;
+    rgba(255, 255, 255, 0.5);
+} */ 
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+
+                    /* //transitions    use mdn :-https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
+
+/* -------------------------------------------------------------------------- */
+
+/* ex:- */
+/* .transition {
+    transition: all 0.3s ease-in-out;
+} */
+
+
+/* ex2 */
+
+/* div:hover{
+    background-color: blue;
+    transition: background-color 0.5s ease;
+}
+  */
+
+
+
+/* que solved */
+/* 
+  
+div{
+  height:200px;
+  width:200px;
+  background-color:black;
+  border:2px solid black;
+  transition:1s;
+  margin:0 auto;
+
+  //use ease,ease-in, ease-in-out for smooth transition
+}
+div:hover{
+  background-color:green;
+  border-radius:50%;
+} */
+
+
+/* -------------------------------------------------------------------------- */
+
+                    /* //css Transform    use mdn https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+
+
+                    :-Transform rotate 
+
+
+                    transform: rotate(45deg);  //for 45 degree rotate  use div element 
+
+                    :-Transform scale 
+
+
+                    transform: scale(1.5);  //for 1.5 time increase size use div element  badh jayega
+                   
+
+
+                     /* transform-translate  2d along happens only 
+                     
+                     
+                     transform: translate(50px, 100px);  //x and y axis 50px and 100px move karega 
+                     
+                     
+                        :-Transform skew
+
+                     ex:   \--\
+
+
+                    /* -------------------------------------------------------------------------- */
+
+
+
+                    
+                    /* -------------------------------------------------------------------------- */
+
+
+                                         /* //Box shadow  use mdn :-https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+                                           
+
+                                         /* op not in this but :-text-align:center */
+                    
+    /* -------------------------------------------------------------------------- */
+
+
+     /* -------------------------------------------------------------------------- */
+         
+                      /* //background images in css  
+                                                                         */
+  /* use :-https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
+
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+      /* -------------------------------------------------------------------------- */
+
+
+
+       /* -------------------------------------------------------------------------- */
+
+                    /* //absolute and relative positioning in css  and also fixed and static 
+                    :-https://developer.mozilla.org/en-US/docs/Web/CSS/position
+ */
+
+        /* -------------------------------------------------------------------------- */
+
+
+
+            /* -------------------------------------------------------------------------- */
+
+                    /* Flexbox Direction */
+       /* flexboxi-dirction: row | row-reverse | column | column-reverse; */
+
+            /* -------------------------------------------------------------------------- */
+
+        /* -------------------------------------------------------------------------- */
+
+
+
+        
+            /* -------------------------------------------------------------------------- */
+
+                    /* Justify Content   https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content   op */
+
+        /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+                  
+
+                   /* Flex wrap  https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+
+            /* -------------------------------------------------------------------------- */
+
+        /* -------------------------------------------------------------------------- */
+
+
+        
+            /* -------------------------------------------------------------------------- */
+                   
+                     /* Align item  */
+                /* flext wrap   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container */
+
+
+                /* align-items: flex self https://developer.mozilla.org/en-US/docs/Web/CSS/align-self  
+
+
+
+                /*  https://developer.mozilla.org/en-US/docs/Web/CSS/flex  flex sizing 
+
+
+                flexbox playground :-https://codepen.io/enxaneta/full/adLPwv    op
+                */
+        /* -------------------------------------------------------------------------- */
