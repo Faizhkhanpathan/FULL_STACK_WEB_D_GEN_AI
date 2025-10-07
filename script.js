@@ -82,11 +82,88 @@
 // let output="total price is:"+(pencilprice+eraserprice)+"rs.";   concatina
 // console.log(output);
 
-
-
 // let pencilprice=10;
 // let eraserprice=5;
 // let output=`Pencile price is: ${pencilprice} rs.`;  //template Literals
 // console.log(output);
 
-// --lecture 6 From Tommorow----
+// --lecture 6 From Tommorow----]
+
+
+// -----------------------------------------------------------
+
+// Practice questions
+// let color="red";
+// if(color==="red"){
+//     console.log("stop");
+// }else{
+//     console.log("go");
+// }
+
+
+
+// -----------------------------------------------------------------
+    
+                        //   Truthy and Falsy values in js
+
+// ------------------------------------------------------------------------------
+
+// Falsy values
+// 1. false
+// 2. 0
+// 3. ""
+// 4. null
+// 5. undefined
+
+// 6. NaN
+// 7. document.all
+// 8. BigInt(0)
+// 9. -0
+// 10. Object.is(-0, +0) === false
+// 11. Object.is(NaN, NaN) === true
+// 12. 0n
+// 13. Number.EPSILON
+// 14. Number.MIN_VALUE
+// 15. Number.NaN
+// 16. parseInt("string")
+// 17. parseFloat("string")
+// 18. new Boolean(false)  // object
+
+//truey values
+// 1. true
+// 2. any number other than 0
+// 3. any string other than ""
+// 4. any object
+// 5. any array
+// 6. function
+// 7. BigInt(1)
+// 8. -Infinity
+// 9. Infinity
+// 10. Object.is(1, 1) === true
+
+
+
+
+// ex:-
+
+// let name="";  // falsy
+// if(name){
+//     console.log("condition is true");
+// }else{
+//     console.log("condition is false");
+// }
+// condition is false
+
+
+
+// -----------------------------------------------------------------
+
+                                // alert
+                               // prompt
+                            //    warm
+// ------------------------------------------------------------------------------
+
+// alert("Hello World");  // it is used to show message to user
+// prompt("Enter your name");  // it is used to take input from user
+
+// console.warm("This is a warning message");
