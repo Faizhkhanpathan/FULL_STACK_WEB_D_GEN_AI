@@ -167,3 +167,177 @@
 // prompt("Enter your name");  // it is used to take input from user
 
 // console.warm("This is a warning message");
+
+
+// -------------------------------------------------------------------------------
+                           
+                           //   for loop
+// -------------------------------------------------------------------------------
+
+
+// let n=10;
+// for(i=1;i<=n;i=i+2){
+//       console.log(i);
+     
+// }
+
+
+
+// -----------------------------------------------------------------------------------
+
+// const favMovie="3 idiots";
+
+// let guess=prompt("Guess the movie name");
+
+// while (guess!==favMovie)&&(guess!=="quit"){
+//    console.log("Wrong guess, try again!");
+//    guess=prompt("Guess the movie name");
+// }
+// guess===favMovie?console.log("Congratulations! You guessed it right."):console.log("Game exited.");
+
+//   =--------------------------------------------------------------------------------------------------
+
+
+// let heroes = [
+//   ["Superman", "Batman", "Flash", "Wonder Woman"],
+//   ["Ironman", "Spiderman", "Hulk", "Thor"]
+// ];
+
+// for (let i = 0; i < heroes.length; i++) {
+//   console.log(i+" "+heroes[i],heroes[i].length);
+//   for(let j=0;j<heroes[i].length;j++){
+//    console.log(`j=${j}, ${heroes[i][j]}`);
+
+//   }
+// }
+
+
+// -----------------------------------------------------------------------------------
+
+// let fruits=["apple","banana","grapes","mango"]
+// for(fruit of fruits){
+//    console.log(fruit);
+// }
+// for(char of "Faizh"){
+//    console.log(char);
+// }
+
+
+// ------------------------------------------------------------------
+
+
+
+// todo   App
+
+// // --------------------------------------------------------------------------------
+// let todos = [];
+// let request = prompt("What do you want to do?");
+
+// while (true) {
+//   if (request === "quit") {
+//     console.log("Quitting app");
+//     break;
+//   } else if (request === "list") {
+//     console.log("**********");
+//     for(let i=0;i<todo.length;i++){
+//     console.todo(i,todo[i]);
+    
+//     }
+//     console.log("**********");
+//   } else if (request === "add") {
+//     let task = prompt("Enter a task");
+//     todos.push(task);
+//     console.log("Task added");
+//   }
+//   else if(req=="delete"){
+//     let task = prompt("please enter task index");
+//     todo.splice(idx,1);
+//     console.log("task deleted.");
+//    }else {
+//     console.log("Invalid command! Use add, list, or quit.");
+//   }
+//   request = prompt("What do you want to add again?");
+// }
+// ---------------------------------------------------------------------------------
+
+
+// -----------------------------------------------------------------------------------------------
+
+               //   Change ad update Values
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+// const student={
+//    name:"Faizh",
+//    age:19,
+//    hobbies:["coding","playing","sleeping"],
+//    isAdmin:true,
+// }
+
+// console.log(student);
+// console.log(student.name);
+
+// let name="sohail";
+// console.log(name);
+
+// let age="A";           // int to string age is unique 
+// console.log(age);
+
+// delete student.age;   // delete property
+// console.log(student);
+
+
+
+// -----------------------------------------------------------------------
+
+                     // Ramdom(Integers)
+
+// --------------------------------------------------------------------------
+// step 1:
+
+// let sun=Math.random();  // 0 to 0.999999
+//  console.log(sun);
+//  sum=sun*10;
+//  console.log(sum);
+// let sum1=Math.floor(sum);  // 0 to 9
+// console.log(sum1);
+
+
+
+
+
+// ex:- in ShadowRoot
+// console.log(Math.random());  // 0 to 0.999999
+
+
+// console.log(Math.floor(Math.random()*10));
+//   // 1
+// console.log(Math.floor(Math.random()*10)+1);
+// ------------------------------------------------------------------------
+
+
+
+// ------------------------------------------------------------------------
+
+                 // leture no 20
+
+               //   try and catch
+
+// ------------------------------------------------------------------------
+
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// // console.log(a);
+// // let a=5;
+// try{
+//    console.log(a);
+// }catch(err){
+//    console.log("Error has occured");
+//    console.log(err);?
+// }
+// console.log("hello Faizh");
+// console.log("hello faizh");
+// console.log("hello faizh");
+
+
