@@ -339,5 +339,575 @@
 // console.log("hello Faizh");
 // console.log("hello faizh");
 // console.log("hello faizh");
+// ------------------------------------------------------------------------
+
+                 //like  this button replicate on console  
 
 
+
+// ------------------------------------------------------------------------
+
+                 
+  // <button onclick="console.log('button was clicked')";>sumit</button>
+  // <button onclick="console.log('button was clicked')";>sumit</button>
+
+  // <button onclick="console.log('button was clicked')";>sumit</button>
+
+  // <button onclick="console.log('button was clicked')";>sumit</button>
+
+  // <button onclick="console.log('button was clicked')";>sumit</button>
+
+  // <button onclick="console.log('button was clicked')";>sumit</button>
+
+  
+//   <button onclick="console.log('button was clicked');console.log('button was clicked')";>sumit</button>
+
+// <!-- <button onclick="console.log('button was clicked')";>sumit</button>-->
+//     <button onclick="console.log('button was clicked')";>like this Faiz</button> 
+  
+
+
+
+
+//single button
+
+// let btn=document.querySelector("button");
+// console.dir(btn);
+
+//multiple button
+
+// let btns=document.querySelector("button");
+
+//for(btn of btns){
+// btn.onclick=sayHello;
+// }
+
+
+//single button
+
+// let btn=document.querySelector("button");
+// console.dir(btn);
+
+//multiple button
+
+// let btns=document.querySelector("button");
+
+//for(btn of btns){
+// btn.onclick=sayHello;
+// }
+
+
+ ////////////////////////f1///////////////////////////////////////////////
+// btn.onclick=function(){
+//   console.log("button was clicked");
+//   alert("here is some error");
+// }
+
+
+ ////////////////////////f2///////////////////////////////////////////////
+
+// function sayhello(){
+//   alert("hey Faiz");
+// console.dir(btn); 
+  
+//   btn.onmouseenter= function(){
+//   console.log("MASHALLHA");
+//   };
+// }
+// btn.onclick=sayhello;
+// ------------------------------------------------------------------------
+
+
+
+// `` = Backticks in javascript
+
+// =========================================================================================
+
+            //trim method in javascript
+
+// let name="      Faizh   ";
+// console.log(name.trim());
+
+// =========================================================================================
+
+// let password=prompt("Enter your password");
+// let newpass =password.trim();
+// console.log(newpass);
+
+
+// =========================================================================================
+
+
+
+                          // String Method
+                          
+                          // str.touppercase()  //RANDOM STRING
+                          // str.lowercase()   //random string
+
+
+                          // =========================================================================================
+
+
+
+                          // String Method
+
+
+                          //index lake dega 
+                          // StringName.method(arg)
+
+                          // str.indexof(substring, start)
+
+                          // EX:-
+// let msg="faiz";
+// console.log(msg.indexOf("i"));  //2
+
+// =========================================================================================
+
+
+
+                          // Method Channing
+
+                          // str.toUpperCase().trim()
+                    
+// ex:-
+
+
+//  let msg="      faiz      ";
+//  let newmsg=msg.toUpperCase().trim();
+//  console.log(newmsg);
+
+
+ //slice method
+//  let msg="      faiz      ";
+//  let newmsg=msg.slice(1,3);
+//  console.log(newmsg);
+
+
+// =============================================================================
+             //replace method
+
+
+//  let msg=" hey love or what      ";
+//  let newmsg=msg.slice("love","hate").trim();
+//  console.log(newmsg);
+
+
+// =============================================================================
+  
+
+
+                                   // Arrays ==object
+  
+
+// ===============================================================================
+                                  // stringName.method()
+
+                                  // ()== method
+
+  // let nums=[2,3,4];
+  // console.log(nums);
+
+//   let name=["faizh","sohail","atif"];
+// name.push("khan");  // add element at last
+// console.log(name.length);
+// console.log(name[0]);
+// console.log(typeof name);  //Array is an object in js
+
+// let info=["faizh",19,true];
+// console.log(info);
+// console.log(info[0][0]);
+
+
+//=========================================================================================
+
+                      //String are immutable
+                     //Array are mutable
+
+
+// let name="Faizh";   //string Not change 
+// name[0]="s";  // not change
+// console.log(name);  // Faizh
+
+
+// let arr=["faizh","sohail","atif"];  // array change
+// arr[0]="khan";   // change
+// console.log(arr);  //khan,sohail,atif
+
+
+// ==========================================================================================
+
+
+                        // Array Methods
+
+                        //push
+                        //pop
+                        //shift
+                        //unshift
+
+// ex
+
+// let fruits=["apple","banana","grapes"];
+// fruits.push("mango");  // add element at last
+// console.log(fruits);
+// fruits.pop();  // remove element from last
+// console.log(fruits);
+// fruits.shift();  // remove element from first
+// console.log(fruits);
+// fruits.unshift("kiwi");  // add element at first
+// console.log(fruits);
+// ==========================================================================================
+
+                               //indexOf method
+
+// let fruits=["apple","banana","grapes","mango"];
+// console.log(fruits.indexOf("grapes"));  //2
+// console.log(fruits.indexOf("kiwi"));  //-1
+
+
+                              //include method
+
+// let fruits=["apple","banana","grapes","mango"];
+// console.log(fruits.includes("banana"));  //true
+                              
+// ==========================================================================================
+
+                   //primary secondary concatination
+//  let primary=[11,21,12,31,22];
+//  let secondary=["green","orange","purple"];
+//  let colors=primary.concat(secondary);
+// //  console.log(colors);
+// console.log(primary.sort()); //sort
+// console.log(primary);
+// //  primary.reverse();
+// //  console.log(primary);   //reverse
+
+//  console.log(primary.slice(-1));  //  
+
+// ==========================================================================================================
+   
+                        //refrences Arrays
+
+
+// [1]==[1]
+// false
+ 
+
+// ex
+
+// let arr1=[1];
+// let arr2=[2];
+// if(arr1==arr1){
+//   console.log("same");
+
+// }else{
+//   console.log("not same");
+// }
+
+
+// ======================================================================================================
+
+  // Constant  Arrays
+
+  // const arr=[1,2,3,4];   //const value not change
+  
+  // console.log(arr);
+
+
+  //======================================================================================================
+
+  // Nested Arrays
+
+  // let nums=[[2,3],[4,5],[5,6],[6,7]];
+  // console.log(nums);
+
+  //=======================================================================================================
+
+                                  //loops  in js 
+                                  
+                              
+
+  // let name="Faiz";
+  // for(let i=0;i<5;i++){
+  //   console.log(i);
+  // }
+
+
+  //while loop 
+
+  //do while loop 
+
+  // and so on same as all 
+
+
+  // =======================================================================================================
+                                  // javascript part 5
+                                  //object
+
+  //Add_Update
+
+
+//   const student = {
+//     name:"faiz",
+//     age:19,
+//     marks:94.4,
+//     city:"wani"
+
+//   };
+//   console.log(student);
+
+// student.city="pune";  // update
+// console.log(student);
+   
+
+// delete student.marks;  // delete
+// console.log(student);
+
+// ========================================================================================================
+
+// Random Numbers between 1 to 10
+// let number=Math.random();
+// console.log(number);
+
+// number=number*10;
+
+// console.log(number);
+
+// number=Math.floor(number);   //remove after decimal numbers 
+
+// console.log(number);
+
+// number=number+1;
+
+// console.log(number);
+// console.log(Math.floor(Math.random()*10)+1);   //random number
+
+
+// =========================================================================================================
+
+
+
+                           //Functions in js
+
+
+  //        function hello(){
+  // console.log("Hello Faizh");
+  //        }                  
+  //         hello();  // function call
+  //         hello();
+
+
+  // ------------------------------------------------------------------------------------------------
+
+  // Practice Questions
+
+   //roll dice allways random number between 1 to 6
+      // function random(){
+      // let rand=Math.floor(Math.random()*6)+1;
+      // console.log(rand);
+      //    }                  
+      //    random();  // function call
+
+
+
+
+      // ---------------------------------------------------------------------------------------------------
+
+            //  Function with Arguments
+
+
+      // function sum(a,b){
+      //   let c=a+b;
+      //   console.log(c);
+      // }
+      // sum(2,3);  //5
+      // sum(10,20);  //30
+      // sum(100,200);  //300
+      // sum(5,15);  //20
+      // sum(7,8);  //15
+      // sum(12,18);  //30
+
+      //==================================================================================
+
+
+                          //function scope
+                          // local scope
+                          //golobal scope
+                          //lexical scope
+
+
+                          // ex:-
+                          //  let name="Faizh";  // global scope
+                          // function myfun(){
+                          //   let name="Faizh";  // local scope
+                          //   console.log(name);
+                          // }
+                          // myfun();
+                          // console.log(name);
+                          //==================================================================================
+
+                          // ex:=   lexical scope
+                            
+                          // function outer(){
+                          //   let x=10;
+                          //   let y=20;
+                          //   function inner(){
+                          //    console.log(x+y);    //lexical scope
+                          //   }
+                          //   inner();
+                          // }
+                          // outer();
+
+
+ // =======================================================================================================================
+ 
+                            //  new trick of function define 
+
+                            // let sum=function(a,b){
+
+                            //   return a+b;
+                            // }
+                            // console.log(sum(2,3)); //5
+                        
+                            
+
+ // ========================================================================================================================
+ 
+                            //Higer Order Functions
+
+
+                  // function greet(func,n){
+                  //   for(let i=0;i<n;i++){
+                  //     func();
+                  //   }
+                  // }
+                  // function sayHello(){
+
+                  //   console.log("Hello Faizh");
+                  // }
+                  // greet(sayHello,3);
+                  // // Hello Faizh
+
+   //Ex:- 2
+   
+   
+  //  function oddEven(request){
+  //   if(request==="odd"){
+  //    return function(n){
+  //     console.log(!(n%2==0));
+  //  }
+  //   }else if(request==="even"){
+  //     return function(n){
+  //       console.log(n%2==0);
+  //     }
+  //   }
+  //   }
+  //   let odd=oddEven("odd");
+  //   odd(3);  // true
+  //   odd(4);  // false
+
+  // EX 2
+
+
+  //  let odd = function(n){
+  //   if(n%2==0){
+  //   console.log("even");
+  //   }else{
+  //     console.log("odd");
+  //   }
+  //  }                             
+  //  odd(10);
+
+//   function oddEven(request){
+//     if(request=="odd"){
+//   let odd = function(n){
+//     console.log(!(n%2==0));
+//     }
+//     return odd;
+//   }
+//   else if(request=="even"){
+//   let even = function(n){
+//     console.log(n%2==0);
+//     }
+// return even;
+//   }
+//   else{
+//     console.log("invalid request");
+//   }
+// }
+// oddEven("odd")(5);  // true
+
+
+
+ //  ==================================================================================================
+
+                                //  Method //I have done thid like function
+
+
+        // const student={                        
+        //    add:function(a,b){
+        //     return a+b;
+        //   },
+        //    sub:function(a,b){
+        //     return a-b;
+        //   },
+        //   mul:function(a,b){
+        //     return a*b;
+        //   }
+        // };
+        // console.log(student.add(2,3));  //5
+
+// =======================================================================================================================
+        // try or catch to handle error pr exceptions 
+// let a=10;
+// try{
+//   console.log(a);
+// }
+// catch{
+//   console.log("Variable a doesn't")
+// }
+
+
+//======================================================================================================
+
+
+                    //DOM in js
+
+                    // Document object model 
+
+//  ----------------------------------------------------------------------------------------------------
+
+                                    // getElementById  
+
+                                    //most imp
+
+//   https://drive.google.com/drive/folders/1NlNZy0glWyw001uB8JbL63F7-jMyHXzx
+
+
+
+                    //  java script :- documents object model  on lec no 22 IMP
+                        
+                      //QUERY SELECTOR IMP IN THAT
+
+                      // document.querySelector('p');
+                      // document.querySelector('#myId');
+                      // document.querySelector('.myClass');
+                      // document.querySelector("p");
+
+//=======================================================================================================================================
+
+  // Using Properties AND method
+
+  // innerText
+
+  // Shows the visible text contained in a node 
+
+
+  //textContent
+
+  //show all the full text 
+
+  //innerHTML
+
+  //SHOWS the full markup
+
+  

@@ -1,0 +1,66 @@
+// git config --global user.name "Faiz Student"
+
+// git config --list
+
+// git config --global user.email "Faiz@123"
+
+
+//    =======================================================================================================\\
+   
+
+   // git clone <- some repo link>
+   // git status 
+
+
+//    ================ commt steps  =============================================
+
+                           
+                    //  working directory --- staging area --- final state(commit)
+
+// git add .
+// git commit -m "your message"
+// git push origin main
+// git pull origin main
+//    =======================================================================================================\\
+    
+
+// for mac
+
+   // ls 
+   //ls -la
+
+  //git init 
+
+
+
+// push on local repo to github repo
+
+                
+// git status
+// git add .
+// git commit -m "first commit"
+// git remote add origin <repo link>
+// git push -u origin main
+
+
+
+// ========================================================================================================  
+
+
+// git pull origin main
+// git remote -v
+// git branch -M main
+// git push -u origin main
+// git clone <repo link>
+// git clone
+// git clone
+// git clone <repo link>
+// git clone <repo link>
+// git clone <repo link>
+
+
+//=================Basic Git Commands =========================\\
+// git remote add origin <repo link>
+// git remote -v  (to verify remote repo link)
+// git branch -M main (to check bransh )
+// git push origin main (to push code to remote repo)
