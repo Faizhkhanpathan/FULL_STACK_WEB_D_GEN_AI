@@ -64,3 +64,91 @@
 // git remote -v  (to verify remote repo link)
 // git branch -M main (to check bransh )
 // git push origin main (to push code to remote repo)
+
+
+//===================================================================
+
+                 
+    //Branch Commands 
+
+git branch (to check branch)
+
+
+git branch -M main(to rename branch)
+
+
+git checkout <-Branch name - > (to navigate)
+
+git checkout -b <-new Branch name - > (to create new branch)
+
+
+git branch -d <- branch name -> (to delete branch)
+
+
+// ====================================================================================
+
+   //every thing up to date 
+
+//problem solve :-   git push --set-upstream origin <-branch name->
+
+
+//============================= Marge code =========================================================
+
+
+CHECK BRANCH   
+
+ 
+  git branch
+
+  git diff <-Bransh name - >   (to compare commit branches file & more)
+
+  git merge <-branch name - >  (to merge 2 branches)
+
+  or 
+  
+  create a PR(PULL REQUECT)
+
+
+
+
+
+
+
+ // --------------------------------------------------------------------------
+
+
+                            // Basic Command
+                            
+                        //   git pull origin main
+                        
+// ============================== Fixing Mistake ===================================================
+
+case 1: staged changes 
+      
+       git reset <-file name - >
+        
+       git reset
+
+case 2:  commited changes(for one commit)
+
+       git reset HEAD~1
+
+      
+   
+// ==========================================================================================================
+
+      git log ()   // commit information
+
+// =========================================================================================================      
+case 2: commited changes(for many commits)
+
+      git reset <-commit hash ->
+      
+      git reset--hard<-commit hash->
+
+
+
+
+// What is Forking 
+
+//For is a rough copy
