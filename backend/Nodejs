@@ -1,0 +1,25 @@
+// Node js 
+
+// module.exports
+// require()
+// module.exports
+
+// -----------------------------------------------------------------------------
+
+                           // NPM (Node Package Manager)
+
+// ------------------------------------------------------------------------------
+
+
+// npm is the standard package manager for Node.js. It helps you to manage packages (libraries or modules) that you can use in your Node.js applications. With npm, you can easily install, update, and manage dependencies for your projects.
+
+// 1) libraries of packages
+// 2) command line tool to install packages
+
+// ------------------------------------------------------------------------------
+
+                         //Installing a package using npm
+     
+
+// Install npm 
+

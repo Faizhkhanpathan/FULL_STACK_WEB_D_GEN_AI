@@ -145,6 +145,7 @@ case 2: commited changes(for many commits)
       git reset <-commit hash ->
       
       git reset--hard<-commit hash->
+      
 
 
 
@@ -152,3 +153,5 @@ case 2: commited changes(for many commits)
 // What is Forking 
 
 //For is a rough copy
+
+
