@@ -1,0 +1,52 @@
+//========================================================
+ //   Mongdb Nosql :- we use 
+ //=======================================================
+
+// Terminal syntax
+
+mongod --version
+
+mongosh --version
+
+mongosh --version
+
+mongosh
+
+output
+
+test>
+
+show dbs 
+
+use dbs
+
+show collections
+
+
+db.createCollection("users")
+
+db.users.insertOne({id:1,username:'Alice',"age:25"});
+
+
+db.users.insertMany([
+  { id: 3, username: "Rahul", age: 22, email: "rahul@gmail.com" },
+   { id: 4, username: "Aman", age: 24, email: "aman@gmail.com" }
+ ])
+
+//har ek insert ko unique identification value deta hai mongodb
+
+
+db.users.find()
+
+db.users.find({age:{$gt:21}});   //age>21  gt lt
+
+db.users.updateOne({username:'Alice'},{$set:{age:2}});
+
+
+db.users.deleteOne({id:2});
+
+
+<!-- // we use monodb compass like moongose -->
+
+
+<!-- //127.0.0.1:27017 iske under database server ka bhi url hota hai -->

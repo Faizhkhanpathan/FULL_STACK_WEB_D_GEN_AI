@@ -1,5 +1,29 @@
-// Notes 
-//=====================================================================================
+<!-- // Notes 
+
+
+//initally js is use fo frontend only,to inhance UI and interaction on website (i.e button ,dynamic ,color,popup)
+2)but js is a 
+open source 
+server side (work on)
+javascript
+run time environment that allow to run js code in the server side
+
+
+//Basics of js will be using in node js
+variable (let var const(const me kuch na kuch value likhna hota hai  // or const not change agar ek bar assignt ho gya to\))
+object (Type of arrays )
+json 
+console
+arrays 
+random 
+if 
+else
+loops
+function
+promts 
+
+
+ =====================================================================================
 //run on terminal 
 
 // npm i prompt
@@ -13,3 +37,81 @@
 
 
 //npm se jo bhe kharede ge na vo node modules se lake patak sega 
+
+
+
+                              //connect mondodb with nodejs
+// =================================================================================
+                //   (mongodb server == nodejs server (tal mail bithana hoga))
+// npm install mongodb(this is mongodb driver)
+
+
+// ====================================================================
+
+
+               // we use mongoose(object data modeling)
+
+               //easy and low code writiing and easer to understand 
+
+
+//  when mongo db not working  -->
+
+<!-- 🪟 Windows
+
+Press Win + R
+
+Type services.msc
+
+Find MongoDB Server
+
+Check the status:
+
+If Stopped → Click Start
+
+If Running → Continue to Step 3 -->
+
+<!-- //=================================================================
+
+                                 create a server
+
+
+    //creating a server in node js via express package             
+========================================================================== -->
+
+<!-- Express.js – Use (Short, 5 Points) – Roman Hindi + English
+
+Fast backend banane ke liye – Express.js helps to create fast and lightweight web servers.
+
+API develop karne ke liye – REST APIs easily banate hain for frontend & mobile apps.
+
+Routing easy hoti hai – Different URLs (routes) handle karna simple hota hai.
+
+Middleware support – Request–response ko process, secure, aur modify kar sakte hain.
+
+Node.js ke saath best – Node.js ke upar built hai, isliye high performance deta hai. -->
+
+
+                        <!-- npm i express -->
+
+                        <!-- ./<-name of link->  end points  -->
+
+// ========================================================================================
+<!-- python backend -->
+
+<!-- jango (in python) -->
+
+<!-- //========================================================================================= -->
+<!-- 
+//SQL
+//PostgreSql
+//mongodb(easy to use //documate formate store data ])
+//mariaDb
+//oracle -->
+
+
+<!-- //===========  node js ka server humne express ki help se banaya tha ========================================================
+ -->
+    
+
+
+        
